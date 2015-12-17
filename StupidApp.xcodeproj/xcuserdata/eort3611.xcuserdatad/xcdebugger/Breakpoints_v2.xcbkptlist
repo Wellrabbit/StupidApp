@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "StupidApp/ViewController.swift"
-            timestampString = "471900902.882191"
+            timestampString = "471903548.743669"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "41"
-            endingLineNumber = "41">
+            startingLineNumber = "45"
+            endingLineNumber = "45">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -24,12 +24,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "StupidApp/ViewController.swift"
-            timestampString = "471902141.34025"
+            timestampString = "471903164.256927"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "17"
-            endingLineNumber = "17"
-            landmarkName = "changeColor(_:)"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "changeColor()"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
