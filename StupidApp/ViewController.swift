@@ -8,7 +8,8 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController
+{
     
     
     @IBAction func ChangeRed(sender: AnyObject) {
@@ -20,6 +21,7 @@ class ViewController: UIViewController {
             @IBAction func changeColor
             (sender: UIButton)
             {
+<<<<<<< HEAD
                 
                 let newRed = CGFloat(Double(arc4random_uniform(256)) / 255.000)
                 let newGreen = CGFloat(Double(arc4random_uniform(256)) / 255.000)
@@ -32,6 +34,23 @@ class ViewController: UIViewController {
         
     
 
+=======
+               changeColor()
+                
+            }
+        func changeColor()
+        {
+            
+            let newRed = CGFloat(Double(arc4random_uniform(256)) / 255.000)
+            let newGreen = CGFloat(Double(arc4random_uniform(256)) / 255.000)
+            let newBlue = CGFloat(Double(arc4random_uniform(256)) / 255.00)
+            
+            
+            view.backgroundColor = UIColor(red: newRed, green: newGreen, blue: newBlue, alpha: 1.0)
+        }
+    
+ 
+>>>>>>> origin/master
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
